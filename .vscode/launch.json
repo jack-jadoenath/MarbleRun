@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MarbleRun (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRun Win64 Debug Build",
+			"program": "D:\\My Documents\\Unreal Projects\\MarbleRun\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MarbleRun (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRun Win64 DebugGame Build",
+			"program": "D:\\My Documents\\Unreal Projects\\MarbleRun\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MarbleRun (Development)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRun Win64 Development Build",
+			"program": "D:\\My Documents\\Unreal Projects\\MarbleRun\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MarbleRun (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRun Win64 Shipping Build",
+			"program": "D:\\My Documents\\Unreal Projects\\MarbleRun\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MarbleRun (Test)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRun Win64 Test Build",
+			"program": "D:\\My Documents\\Unreal Projects\\MarbleRun\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MarbleRunEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRunEditor Win64 Debug Build",
+			"program": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\My Documents\\Unreal Projects\\MarbleRun\\MarbleRun.uproject"
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MarbleRunEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRunEditor Win64 DebugGame Build",
+			"program": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\My Documents\\Unreal Projects\\MarbleRun\\MarbleRun.uproject"
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MarbleRunEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MarbleRunEditor Win64 Development Build",
+			"program": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\My Documents\\Unreal Projects\\MarbleRun\\MarbleRun.uproject"
+			],
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Program Files\\Unreal\\UE_4.23\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\My Documents\\Unreal Projects\\MarbleRun\\MarbleRun.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Program Files\\Unreal\\UE_4.23"
+		}
+	]
+}

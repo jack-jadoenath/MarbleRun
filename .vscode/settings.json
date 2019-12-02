@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/My Documents/Unreal Projects/MarbleRun/.git": true,
+		"D:/My Documents/Unreal Projects/MarbleRun/.vscode": true,
+		"D:/My Documents/Unreal Projects/MarbleRun/Content": true,
+		"D:/My Documents/Unreal Projects/MarbleRun/Intermediate": true,
+		"D:/My Documents/Unreal Projects/MarbleRun/Saved": true
+	}
+}
